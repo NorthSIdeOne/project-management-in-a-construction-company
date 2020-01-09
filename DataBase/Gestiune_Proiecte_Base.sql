@@ -10,6 +10,8 @@
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
+CREATE DATABASE Gestiune_Proiecte_Base;
+
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -25,6 +27,9 @@ SET time_zone = "+00:00";
 --
 -- Structura de tabel pentru tabelul `ANGAJATI`
 --
+
+
+USE Gestiune_Proiecte_Base;
 
 CREATE TABLE `ANGAJATI` (
   `ID_ANGAJAT` int(11) NOT NULL,
